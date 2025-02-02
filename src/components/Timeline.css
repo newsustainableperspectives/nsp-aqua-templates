@@ -1,0 +1,30 @@
+.gantt-chart {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .gantt-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gantt-month {
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .gantt-days {
+    display: flex;
+  }
+  
+  .gantt-day {
+    flex: 1;
+    text-align: left;
+    padding: 0px;
+    border-bottom: 1px solid #ccc;
+    width: 70px;
+  }
+  
