@@ -4,7 +4,7 @@ function App() {
           onClick={() => {setNodes([])}}
         >update nodes
         </button> */}
-      <div className="h-screen">
+      <div className="h-screen position-relative">
         {/* <FlowWithProvider initialNodes={nodes} /> */}
         {/* <MachineTest /> */}
       </div>

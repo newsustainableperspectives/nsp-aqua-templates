@@ -11,14 +11,16 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@nsp-aqua/react": "0.0.9",
+    "@nsp-aqua/react-components": "0.3.0",
     "@testing-library/user-event": "^14.5.2",
     "@xstate/store": "^2.6.2",
     "@xyflow/react": "^12.3.6",
+    "gsap": "^3.12.7",
     "lucide-react": "^0.473.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.14",
+    "uuid": "^11.0.5",
     "xstate": "^5.19.2"
   },
   "devDependencies": {
